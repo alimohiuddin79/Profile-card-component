@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
     background-position: top -500px left -300px, bottom -500px right -300px;
     background-repeat: no-repeat, no-repeat;
     background-color: hsl(185, 75%, 39%);
@@ -37,7 +37,7 @@ p {
 }
 
 .top {
-    background: url('/images/bg-pattern-card.svg');
+    background: url('./images/bg-pattern-card.svg');
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 16px 16px 0 0;
